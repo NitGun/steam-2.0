@@ -145,3 +145,19 @@ button{
     background-color: red;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1320px) {
+    .games-block{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 840px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    .games-block{
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 540px;
+        width: 100%;
+    }
+}
